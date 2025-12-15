@@ -104,16 +104,16 @@ Optional:
 
 /Content
 ├── Blueprints
-│ ├── BP_TopDownCharacter
-│ ├── BP_Enemy
-│ ├── BP_Boss
-│ └── BP_BossSpawner
+│   ├── BP_TopDownCharacter
+│   ├── BP_Enemy
+│   ├── BP_Boss
+│   └── BP_BossSpawner
 ├── UI
-│ ├── HealthBarWidget
-│ └── Menu Widgets
+│   ├── HealthBarWidget
+│   └── Menu Widgets
 ├── Animations
 ├── Maps
-│ └── LVL_TopDown
+│   └── LVL_TopDown
 
 
 
