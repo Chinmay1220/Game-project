@@ -102,3 +102,58 @@ Optional:
 
 ## 📁 Project Structure (Simplified)
 
+/Content
+├── Blueprints
+│ ├── BP_TopDownCharacter
+│ ├── BP_Enemy
+│ ├── BP_Boss
+│ └── BP_BossSpawner
+├── UI
+│ ├── HealthBarWidget
+│ └── Menu Widgets
+├── Animations
+├── Maps
+│ └── LVL_TopDown
+
+
+
+---
+
+## 📝 Design Notes
+
+- Combat is animation-driven, not tick-based
+- Enemy and boss systems are modular and reusable
+- No hardcoded enemy counts or boss logic
+- Designed to be easily extendable with:
+  - Multiple dojos
+  - Boss phases
+  - Additional enemy types
+
+---
+
+## 👥 Credits
+
+- **Game Design & Development:** Chinmay Sawant  
+- **Engine:** Unreal Engine 5.6  
+- **Assets:** Unreal Marketplace / Free Asset Packs  
+- **Inspiration:** Action RPGs and narrative-driven indie games
+
+---
+
+## ⚠️ Known Issues
+
+- Enemy AI is basic (no Behavior Trees yet)
+- Boss animations are placeholder
+- Camera is fixed (no dynamic zoom or rotation)
+- Performance may drop with very large enemy counts
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file in the root directory for details.
+
+Copyright © 2025 Chinmay Sawant
+
+
