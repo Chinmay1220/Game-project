@@ -148,6 +148,19 @@ Optional:
 - Performance may drop with very large enemy counts
 
 ---
+/Content
+├── Blueprints
+│   ├── BP_TopDownCharacter
+│   ├── BP_Enemy
+│   ├── BP_Boss
+│   └── BP_BossSpawner
+├── UI
+│   ├── HealthBarWidget
+│   └── Menu Widgets
+├── Animations
+├── Maps
+│   └── LVL_TopDown
+
 
 ## 📜 License
 
